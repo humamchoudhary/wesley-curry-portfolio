@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  cursor: default;
+  background-color: #e2e2e2;
+}
+.active {
+  color: white;
+  font-weight: 600;
+  /* font-size: 3rem; */
+}
+
+.gallary {
+  -webkit-column-count: 6;
+  -moz-column-count: 6;
+  column-count: 6;
+  -webkit-column-width: 20%;
+  -moz-column-width: 20%;
+  column-width: 20%;
+  padding: 12px 12px;
+}
+.gallary .img {
+  transition: all 350ms ease;
+  -webkit-transition: all 350ms ease;
+  margin-bottom: 12px;
+  max-width: auto;
+  /* height: 100%; */
+  width: 100%;
+}
+
+.gallary_img:hover img {
+  @apply scale-125;
+}
+.nav-large {
+}
+@media (min-width: 768px) {
+  @media (min-width: 1024px) {
+    .md\:lg\:nav-larger {
+      @apply flex;
+      @apply flex-row;
+      @apply justify-between;
+      @apply px-36;
+      @apply z-20;
+      @apply relative;
+      @apply top-6;
+      @apply items-center;
+
+      background-color: transparent;
+    }
+    .active {
+      color: #fca311;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  @media (min-width: 1024px) {
+    .md\:lg\:contact-large {
+      --tw-bg-opacity: 1;
+      /* background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+           */
+      @apply grid;
+      @apply grid-cols-2;
+      @apply place-items-center;
+      @apply gap-64;
+      @apply px-40;
+      @apply pb-16;
+      @apply h-screen;
+      @apply my-auto;
+    }
+  }
+}
