@@ -34,16 +34,16 @@ Wesley Curry's Portfolio is a test portfolio created using ReactJS and Tailwind 
 
 ## Demo Images
 
-<img src="git-assets/Home.png" alt="Logo" max-width="auto" height="500">
+<img src="git-assests/home.png" alt="Logo" max-width="auto" height="500">
 <br/>
 <br/>
 
-<img src="git-assets/Gallary.jpg" alt="Logo" max-width="auto" height="500">
+<img src="git-assests/gallary.png" alt="Logo" max-width="auto" height="500">
 
 <br/>
 <br/>
 
-<img src="git-assets/Contact.png" alt="Logo" max-width="auto" height="500">
+<img src="git-assests/contact.png" alt="Logo" max-width="auto" height="500">
 <br/>
 <br/>
 
